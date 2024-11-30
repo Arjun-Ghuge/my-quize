@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward_ios" />
+</head>
+<body>
+    <div class="quize-container">
+        <div class="welcome">
+            <h1>welcome to cricket quize</h1>
+        </div>
+        <div class="heading">
+            <p>Q. Identify the name of cricketer.</p>
+            <h4>OPTIONS</h4>
+            <h4>NEXT</h4>
+            <h4>SCORE</h4>
+        </div>
+        <div class="content">
+            <div class="questionsData"></div>
+
+            <div class="next">
+                <span onclick="nextQuestion();"  id="next_button" class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </div>
+            <div>
+                <h2>score <span id="score">0</span>/10</h2>
+            </div>
+        </div>
+
+    </div>
+    <script src="data.js"></script>
+
+</body>
+</html>
